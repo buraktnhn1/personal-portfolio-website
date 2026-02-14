@@ -119,3 +119,36 @@ footer {
     color: #94a3b8;
     font-size: 0.9rem;
 }
+/* REVEAL ANIMATION */
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+body.light-mode {
+    background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+    color: #111;
+}
+
+body.light-mode section {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+body.light-mode #theme-toggle {
+    color: black;
+}
+
