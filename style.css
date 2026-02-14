@@ -66,3 +66,20 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #1e40af;
+    transform: scale(1.05);
+}
+
