@@ -152,3 +152,30 @@ body.light-mode #theme-toggle {
     color: black;
 }
 
+/* LIGHT MODE TEXT COLOR FIX */
+body.light-mode {
+    color: #111;
+}
+
+body.light-mode h2 {
+    color: #1f2937;
+}
+
+body.light-mode ul li {
+    color: #111;
+}
+
+body.light-mode p {
+    color: #111;
+}
+
+body.light-mode .btn {
+    color: white; 
+}
+
+
+body.light-mode #theme-toggle {
+    color: #111;
+}
+
+
