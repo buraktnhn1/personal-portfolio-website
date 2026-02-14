@@ -82,4 +82,32 @@ footer {
     background: #1e40af;
     transform: scale(1.05);
 }
+nav {
+    background: #111827;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+}
 
